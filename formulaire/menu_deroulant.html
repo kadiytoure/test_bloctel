@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu categorie {
+        width: 140px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .menu .categorie:hover {
+        background-color: lightgray;
+    }
+
+    .menu .categorie ul {
+    width: 140px;
+    display: none;
+    padding: 10px;
+    box-shadow: 1px 2px 5px gray;
+    background-color: white;
+    }
+
+    .menu .categorie li {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid darkgrey;
+    }
+
+    .menu .categorie li:hover {
+        background-color: lightgray;
+    }
+
+    .menu .categorie li: last-child {
+        border-bottom: none;
+    }
+
+    .menu li:hover>ul {
+        display:block;
+    }
+
+    .menu .categorie ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .menu .categorie:last-child ul ul {
+        left: -100%;
+    }
+
+ </style>
+</head>
+<body>
+    <ul class="menu">
+        <li class="categorie">categorie 1
+    <ul>
+    <li>Menu 1
+    <ul>
+    <li>Sous Menu 1</li>
+    <li><Sous Menu 2</li>
+    <li><Sous Menu 3></li>
+    
+
+        <li class="categorie">categorie 2
+   
+
+        <li class="categorie">categorie 3
+     
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu Déroulant</title>
+
+    <style>
+        ul, li{
+            margin: 0;
+            padding:0;
+            list-style: none;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu .categorie {
+            width: 140px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        
+        .menu .categorie:hover {
+            background-color: lightgray;
+        }
+/*Faire que les menus et sous menus ne s'affichent pas*/
+        .menu .categorie ul {
+            display: none;
+            padding: 10px;
+            box-shadow: 1px 2px 5px gray;
+        }
+        .menu .categorie li {
+            height: 35px;
+            line-height: 35px;
+            border-bottom: 1px solid darkgray;
+        }
+        .menu .categorie li:hover {
+            background-color: lightgray;
+        }
+        .menu .categorie li:last-child {
+            border-bottom: none;
+        }
+/*Affichage des menus et sous-menu au hover sur leur parent*/
+        .menu .categorie:hover ul {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li class="categorie">Categorie 1
+            <ul>
+                <li>Menu 1
+                    <ul>
+                        <li>Sous Menu 1</li>
+                        <li>Sous Menu 2</li>
+                        <li>Sous Menu 3</li>
+                    </ul>
+                </li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>
+        </li>
+
+        <li class="categorie">Categorie 2</li>
+        <li class="categorie">Categorie 3</li>
+    </ul>
+
+    
+</body>
+</html>

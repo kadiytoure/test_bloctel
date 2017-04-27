@@ -1,0 +1,180 @@
+body{
+    margin:0;
+}
+
+#blue
+
+{
+
+    background-color: rgb(59, 107, 204); 
+    color: white; 
+    align-self: flex-end;
+    display: flex;
+    margin: auto;
+    font-family: "robotoregular",Helvetica,Arial,sans-serif;
+    font-size: 14.4px;
+    line-height: 21.6px;
+    min-height: 60px;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    align-content: flex-end;
+    width: 100%;
+}
+
+#grey
+
+{
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    font-family: "robotoregular",Helvetica,Arial,sans-serif;
+    font-size: 14.4px;
+    line-height: 21.6px;
+    list-style-position: outside;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    height: 37px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+#troisieme
+
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#titre { 
+    text-align: center; 
+    box-sizing: border-box;
+    color: #3b6bcc;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: .67em 0;
+}
+
+
+
+#conteneur {
+   border: 0px white;
+   text-align: justify;
+   padding: 15px;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+#minis {
+    height: 110px;
+    width: 86px;
+    margin-top: Opx;
+    margin-left: 0px;
+    
+}
+
+#logo {
+    height: 158px;
+    width: 525px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+main header {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.consommateur {
+    background: rgb(220, 9, 80) 25px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: rgb (255, 255, 255)
+    display: block;
+    float: right;
+    font-family: "robotoregular",Helvetica,Arial,sans-serif;
+    font-size: 17. 2833px;
+    height: 160px;
+    line-height: 21.6px;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.entreprise {
+   background: rgb(220, 9, 80) 25px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: rgb (255, 255, 255)
+    display: block;
+    float: right;
+    font-family: "robotoregular",Helvetica,Arial,sans-serif;
+    font-size: 17. 2833px;
+    height: 160px;
+    line-height: 21.6px;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-content: space-between;
+} 
+
+main {
+    display: flex;
+    flex: 11 auto;
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
